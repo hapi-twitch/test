@@ -20,29 +20,66 @@
 
     <section id="home">
         <div class="container">
-            <h1>ようこそ</h1>
-            <p>私のポートフォリオへようこそ</p>
+            <div class="hero-content">
+                <h1>クリエイティブ<span class="highlight">デベロッパー</span></h1>
+                <p class="lead">デザインとテクノロジーで、革新的なウェブ体験を創造します</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">作品を見る</a>
+                    <a href="#contact" class="btn secondary">お問い合わせ</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="about">
         <div class="container">
-            <h2>自己紹介</h2>
-            <p>ここに自己紹介文を入れてください。</p>
+            <h2 class="section-title">自己紹介</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>ここに自己紹介文を入れてください。</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">UI/UXデザイン</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="projects">
         <div class="container">
-            <h2>プロジェクト</h2>
+            <h2 class="section-title">プロジェクト</h2>
             <div class="project-grid">
                 <div class="project-card">
-                    <h3>プロジェクト1</h3>
-                    <p>プロジェクトの説明</p>
+                    <div class="project-image">
+                        <img src="project1.jpg" alt="プロジェクト1">
+                    </div>
+                    <div class="project-content">
+                        <h3>プロジェクト1</h3>
+                        <p>プロジェクトの説明</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                        <a href="#" class="project-link">詳細を見る →</a>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <h3>プロジェクト2</h3>
-                    <p>プロジェクトの説明</p>
+                    <div class="project-image">
+                        <img src="project2.jpg" alt="プロジェクト2">
+                    </div>
+                    <div class="project-content">
+                        <h3>プロジェクト2</h3>
+                        <p>プロジェクトの説明</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                        <a href="#" class="project-link">詳細を見る →</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -50,18 +87,33 @@
 
     <section id="contact">
         <div class="container">
-            <h2>お問い合わせ</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="お名前" required>
-                <input type="email" placeholder="メールアドレス" required>
-                <textarea placeholder="メッセージ" required></textarea>
-                <button type="submit">送信</button>
+            <h2 class="section-title">お問い合わせ</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="お名前" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="メールアドレス" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="メッセージ" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">送信する</button>
             </form>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 マイポートフォリオ</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+                <p>&copy; 2025 マイポートフォリオ</p>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
